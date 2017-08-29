@@ -1,9 +1,7 @@
-# Create links for ims
-
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := IMSLinks
+LOCAL_MODULE := ImsLinksGoogle
 LOCAL_MODULE_OWNER := google
 LOCAL_MODULE_TAGS := optional
 LOCAL_POST_INSTALL_CMD := \
