@@ -65,9 +65,7 @@ PRODUCT_COPY_FILES := \
     vendor/lge/bullhead/proprietary/etc/sap.conf:system/etc/sap.conf:lge \
     vendor/lge/bullhead/proprietary/etc/thermal-engine-8992.conf:system/etc/thermal-engine-8992.conf:lge \
     vendor/lge/bullhead/proprietary/lib/libdmengine.so:system/lib/libdmengine.so \
-    vendor/lge/bullhead/proprietary/priv-app/DMService/lib/arm/libdmengine.so:system/priv-app/DMService/lib/arm/libdmengine.so \
     vendor/lge/bullhead/proprietary/lib/libdmjavaplugin.so:system/lib/libdmjavaplugin.so \
-    vendor/lge/bullhead/proprietary/priv-app/DMService/lib/arm/libdmjavaplugin.so:system/priv-app/DMService/lib/arm/libdmjavaplugin.so \
     vendor/lge/bullhead/proprietary/lib64/hw/gps.msm8992.so:system/lib64/hw/gps.msm8992.so:lge \
     vendor/lge/bullhead/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so:lge \
     vendor/lge/bullhead/proprietary/lib/hw/gps.msm8992.so:system/lib/hw/gps.msm8992.so:lge \
@@ -115,7 +113,8 @@ PRODUCT_COPY_FILES += \
 
 # FAKE
 PRODUCT_PACKAGES := \
-    ImsLinksGoogle
+    ImsLinksGoogle \
+    DMServiceLinks
 
 PRODUCT_PACKAGES += \
     datastatusnotification \
