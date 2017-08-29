@@ -96,7 +96,7 @@ PRODUCT_PACKAGES += \
     DiagMon \
     Entitlement \
     GCS \
-    HotwordEnrollment \
+    HotwordEnrollmentWCD9330 \
     LifeTimerService \
     SprintDM \
     atfwd \
@@ -114,8 +114,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so
 
 # FAKE
-PRODUCT_PACKAGES += \
-	IMSLinks
+PRODUCT_PACKAGES := \
+    ImsLinksGoogle
 
 PRODUCT_PACKAGES += \
     datastatusnotification \
